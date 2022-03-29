@@ -1,6 +1,6 @@
 {
     "name": "CEB Power Cut Schedule",
-    "description": "",
+    "description": "This extension allows you to view details about power outages in Sri Lanka.",
     "manifest_version": 3,
     "version": "1.0.0",
     "permissions": [

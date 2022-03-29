@@ -11,16 +11,16 @@
 <body>
     <div class="container mt-3">
         <h3 class="text-center">CEB Power Cut Schedule</h3>
-        <div id="spinner" class="text-center">
+        <div id="spinner" class="text-center" style="display: none;">
             <div class="spinner-border" role="status">
                 <span class="sr-only"></span>
             </div>
         </div>
-        <div class="text-center">
+        <div class="text-center" style="display: none;">
             <div id="alertMessage" class="alert alert-danger" role="alert">
             </div>
         </div>
-        <table id="table" class="table table-bordered mt-3">
+        <table id="table" class="table table-bordered mt-3" style="display: none;">
             <thead>
                 <tr>
                     <th>Start Time</th>
@@ -34,12 +34,12 @@
             </tbody>
         </table>
         <hr />
-        <div class="input-group mb-1">
-            <input id="txtAccNo" type="number" class="form-control" placeholder="CEB Account Number" aria-label="CEB Account Number" aria-describedby="button-addon">
+        <div class="input-group mb-2">
+            <input id="txtAccNo" type="number" class="form-control" placeholder="Account Number" aria-label="Account Number" aria-describedby="button-addon">
             <button id="button-addon" class="btn btn-outline-secondary" type="button">Update</button>
         </div>
         <div class="mb-2">
-            <a href="https://github.com/bandaranayake/ceb-power-cut-schedule-extension" class="link-info" target="_blank">Source Code</a>
+            <a href="https://github.com/bandaranayake/ceb-power-cut-schedule-extension" class="link-info text-decoration-none" target="_blank">&lt;Source Code/&gt;</a>
         </div>
     </div>
 </body>

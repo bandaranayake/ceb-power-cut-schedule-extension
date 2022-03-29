@@ -5,7 +5,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .link-info{
-  font-size: x-small;
+  font-size: smaller;
 }
 
 .container{

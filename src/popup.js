@@ -104,10 +104,6 @@ chrome.storage.sync.get(['account'], result => {
         fetchData(result.account);
     }
     else {
-        spinner.style.display = 'none';
-        alertMessage.style.display = 'none';
-        table.style.display = 'none';
-
         btnUpdate.innerHTML = "Add";
     }
 });
