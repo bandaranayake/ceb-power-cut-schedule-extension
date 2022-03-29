@@ -1,0 +1,28 @@
+{
+    "name": "CEB Power Cut Schedule",
+    "description": "",
+    "manifest_version": 3,
+    "version": "1.0.0",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*.ceb.lk/"
+    ],
+    "action": {
+        "default_title": "CEB Power Cut Schedule",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-48.png",
+        "128": "images/icon-128.png"
+    }
+}
